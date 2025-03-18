@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import CourseCard, { CourseProps } from "@/components/CourseCard";
 import { Button } from "@/components/ui/button";
 import { 
+  Bell,
   Book, 
   Calendar, 
   CheckCircle, 
@@ -16,7 +17,8 @@ import {
   PlusCircle, 
   Search, 
   Settings,
-  UserCircle
+  UserCircle,
+  Users
 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
